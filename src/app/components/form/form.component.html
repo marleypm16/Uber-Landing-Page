@@ -1,0 +1,5 @@
+<form action="" class="form-section" [formGroup]="form">
+    <input type="text" placeholder="Informe o local" formControlName="partida">
+    <input type="text" formControlName="destino" placeholder="Informar o destino">
+    <app-btn btn-text="Ver Preços" [disabled]="!form.valid" styleVariant="primary"></app-btn>
+</form>
