@@ -1,6 +1,5 @@
 import { NgOptimizedImage } from '@angular/common';
 import { Component } from '@angular/core';
-import { Btn } from '../../btn';
 import { BtnComponent } from '../btn/btn.component';
 
 @Component({
