@@ -3,11 +3,10 @@ button{
     border-radius: 15px;
     outline: none;
     cursor: pointer;
-}
-button:hover{
-    transition: all 0.5s ease-in-out;
-    background-color: hsl(0, 0%, 85%);
-    border:  1px solid hsl(0, 0%, 85%);
+    
+    &:disabled{
+        opacity: 0.6;
+    }
 }
 
 .btn-primary{
