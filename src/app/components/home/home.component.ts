@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { HeaderComponent } from '../header/header.component';
 import { CommonModule, NgOptimizedImage } from '@angular/common';
-import { Btn } from '../../btn';
 import { BtnComponent } from '../btn/btn.component';
 
 
@@ -13,15 +12,5 @@ import { BtnComponent } from '../btn/btn.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  button : Btn[] = [
-    //Button white
-    { 
-      text : 'Ver preços',
-  
-    },
-  //Button black
-  {
-    text:'Começar',
-  }
-]
+
 }
