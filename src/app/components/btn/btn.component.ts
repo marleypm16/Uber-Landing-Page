@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
-import { Btn } from '../../btn';
+
+type btnVariant = 'primary' | 'secondary'
 
 @Component({
   selector: 'app-btn',
@@ -9,5 +10,7 @@ import { Btn } from '../../btn';
   styleUrl: './btn.component.css'
 })
 export class BtnComponent {
-  @Input() btn!: Btn;
+  @Input("btn-text") text : string = ''
+  @Input() disabled : boolean = false
+  @Input() styleVariant : btnVariant = 'primary'
 }
