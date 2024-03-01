@@ -73,3 +73,13 @@
     align-items: flex-start;
     gap: 20px;
 }
+
+@media screen and (max-width: 800px) {
+
+    .sections{
+        flex-direction: column;
+    
+    }
+
+
+}
